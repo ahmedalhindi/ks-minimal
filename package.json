@@ -1,0 +1,18 @@
+{
+  "name": "ks-minimal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ahmedalhindi",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start:dev": "nodemon --exec keystone"
+  },
+  "dependencies": {
+    "@keystonejs/adapter-mongoose": "^11.2.1",
+    "@keystonejs/app-admin-ui": "^7.5.1",
+    "@keystonejs/app-graphql": "^6.3.1",
+    "@keystonejs/fields": "^22.1.2",
+    "@keystonejs/keystone": "^19.3.2"
+  }
+}
